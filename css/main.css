@@ -21,6 +21,10 @@ body {
 #projects {}
 
 /* Classes */
+.nav-pills {
+    font-size: 1.5em;
+}
+
 .center-block {
    margin-left:auto;
    margin-right:auto;
