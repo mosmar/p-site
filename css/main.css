@@ -1,58 +1,64 @@
 /* Elements */
-body {
-  font-family: 'Droid Sans', sans-serif;
-}
+
 
 /* ID */
+
 #page {
-  height: auto;
-  margin: auto auto;
-  background-color: white;
+    font-family: 'Droid Sans', sans-serif;
+    height: auto;
+    margin: auto auto;
+    background-color: white;
+    color: #747474;
 }
 
 #about {}
 
-#history {
-/*   margin-top: 70px; */
-}
+#history {}
 
 #connect {}
 
 #projects {}
 
+
 /* Classes */
+
 .nav-pills {
     font-size: 1.5em;
 }
 
 .center-block {
-   margin-left:auto;
-   margin-right:auto;
-   display:block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .text-center {
-   text-align:center
+    text-align: center
 }
 
 .profile-img {
-  margin-top: 70px;
-  margin-bottom: 30px;
+    /*    margin-top: 70px;*/
+    margin-top: 15%;
+    margin-bottom: 30px;
 }
 
 .introContainer {
-    margin-top: 70px;
-    height: 300px; 
-    line-height: 250px;
+    /*    margin-top: 100px;*/
+    margin-top: 5%;
+    /*    height: 300px;*/
+    height: 25%;
+    /*    line-height: 250px;*/
 }
 
 .introContainer h2 {
     display: inline-block;
     vertical-align: middle;
-    color: #747474;
 }
 
+
 /* Remove classes once a proper profile images is used  */
+
+
 /*
 .rotate270 {
     -webkit-transform: rotate(270deg);
@@ -67,49 +73,49 @@ body {
    height:350px;
 }
 */
+
+
 /* End remove classes */
 
 .circle-img {
-  border-radius: 50%;
-}
-
-.font-color {
-  color: #747474;
+    border-radius: 50%;
 }
 
 .div-partition {
-  top: 0px;
-  padding: 0px 2px 2px 3px;
-  border-width: 2px;
-  border-bottom-width: 2px;
-  border-bottom-color: #747474;
-  border-bottom-style: solid;
-  margin: 20px auto 20px auto;
-  width: 80%;
+    top: 0px;
+    padding: 0px 2px 2px 3px;
+    border-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-color: #747474;
+    border-bottom-style: solid;
+    margin: 20px auto 20px auto;
+    width: 80%;
 }
 
 .footer-div {
-  position: relative;
-  height: 250px;
-  background-color: #3b3939;
-  color: white;
+    position: relative;
+    /*    height: 250px;*/
+    height: 40%;
+    background-color: #3b3939;
+    color: white;
 }
 
 .link-color {
-  color: white;
+    color: white;
 }
 
 .middle {
-  padding-top: 25px;
+    /*    padding-top: 25px;*/
+    padding-top: 4%;
 }
 
 .copyright {
-  padding-top: 210px;
-  text-align:center;
-  color: #8c8888;
+/*    padding-bottom: 4%;*/
+    padding-top: 18%;
+    text-align: center;
+    color: #8c8888;
 }
 
-.i-center {
+.icon-center {
     margin-top: 18px;
 }
-
