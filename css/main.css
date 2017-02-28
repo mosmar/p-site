@@ -55,6 +55,16 @@
     vertical-align: middle;
 }
 
+.btn-outline-primary {
+    background-color: transparent;
+    color: white;
+    transition: all .5s;
+}
+
+.btn-outline-primary:hover {
+    background-color: white;
+    color: #747474;
+}
 
 /* Remove classes once a proper profile images is used  */
 
@@ -109,7 +119,7 @@
 }
 
 .copyright {
-/*    padding-bottom: 4%;*/
+    /*    padding-bottom: 4%;*/
     padding-top: 18%;
     text-align: center;
     color: #8c8888;
