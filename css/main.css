@@ -66,26 +66,16 @@
     color: #747474;
 }
 
-/* Remove classes once a proper profile images is used  */
-
-
-/*
-.rotate270 {
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    transition: all .5s;
 }
 
-.img-resize {
-   width:350px;
-   height:350px;
+.btn-secondary:hover {
+    background-color: white;
+    color: #747474;
 }
-*/
-
-
-/* End remove classes */
 
 .circle-img {
     border-radius: 50%;
