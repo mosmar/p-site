@@ -2,94 +2,81 @@
 
 <head>
 
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-
-
-<!--
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
--->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    
-    <div class="container-fluid">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <ul class="nav nav-pills">
-                <li role="presentation" class="pull-left">
-                    <a href="#">Micca Osmar</a>
-                </li>
-                <li role="presentation" class="pull-right">
-                    <a class="page-scroll" href="#connect">Connect</a>
-                </li>
-                <li role="presentation" class="pull-right">
-                    <a class="page-scroll" href="#projects">Projects</a>
-                </li>
-                <li role="presentation" class="pull-right">
-                    <a class="page-scroll" href="#history">History</a>
-                </li>
-                <li role="presentation" class="pull-right">
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-
-
-<!--
-    <div class="container-fluid">
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Micca Osmar</a>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#history">History</a>
-                    <a class="nav-item nav-link" href="#projects">Projects</a>
-                    <a class="nav-item nav-link" href="#connect">Connect</a>
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">Micca Osmar</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#history">History</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#connect">Connect</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <div id="banner">
+        <img class="responsive-banner" src="img/hello_world.png">
     </div>
--->
 
-    <!--    <div style="height: 31px;">-->
-    <!--Placeholder Image-->
-    <!--   <img src="http://www.precioustreasuresschool.com/wp-content/uploads/2016/02/the-beautiful-wallapper-of-the-opera-house-in-sydney-1920x540-618.jpg" alt="Hello World"> -->
-    <!--    </div>-->
     <div id="page">
         <div class="row" id="about">
             <div class="col-md-1"></div>
             <div class="col-md-8 introContainer">
-                <h2>Adaptable and motivated System Engineer who works effectively in a dynamic environment. Fluent in Java, SQL, and UNIX. Experienced in developing, troubleshooting, configuring, and supporting applications in enterprise environments.</h2>
+                <h2>Adaptable and motivated Software Engineer who works effectively in a dynamic environment. Fluent in Java, SQL, and UNIX. Experienced in developing, troubleshooting, configuring, and supporting applications in enterprise environments.</h2>
             </div>
             <div class="col-md-3">
-                <img class="circle-img profile-img" src="img/256x256.png">
+                <img class="profile-img" src="img/256x256.png">
             </div>
         </div>
         <div class="div-partition"></div>
         <div class="row history-container" id="history">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <h2>Systems Engineer - Syniverse Technologies Inc</h2>
-                <h3>May 2014 - Present</h3>
+                <h2>Software Engineer - PwC</h2>
+                <h3>March 2017 - Present</h3>
+                <h3>
+                    <ul>
+                        <li>Coming Soon!</li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2>Software Engineer - Syniverse Technologies Inc</h2>
+                <h3>May 2014 - March 2017</h3>
                 <h3>
                     <ul>
                         <li>Wrote maintainable and extensible code using Eclipse, Maven and SQL Developer.</li>
@@ -161,41 +148,10 @@
         <div class="div-partition"></div>
         <div id="projects">
             <h3 class="text-center">Projects</h3>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <img class="center-block" src="https://dl.dropboxusercontent.com/u/4597827/documents-flat/128x128.png">
-                </div>
-                <div class="col-md-4">
-                    <img class=" center-block" src="https://dl.dropboxusercontent.com/u/4597827/documents-flat/128x128.png">
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <img class="center-block" src="https://dl.dropboxusercontent.com/u/4597827/documents-flat/128x128.png">
-                </div>
-                <div class="col-md-4">
-                    <img class=" center-block" src="https://dl.dropboxusercontent.com/u/4597827/documents-flat/128x128.png">
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <img class="center-block" src="https://dl.dropboxusercontent.com/u/4597827/documents-flat/128x128.png">
-                </div>
-                <div class="col-md-4">
-                    <img class=" center-block" src="https://dl.dropboxusercontent.com/u/4597827/documents-flat/128x128.png">
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-
+            <h1 class="text-center">Coming Soon!</h1>
         </div>
     </div>
     <div class="div-partition"></div>
-    <!--    <footer>-->
     <div class="row footer" id="connect">
         <div class="col-md-4"></div>
         <div class="col-md-4 middle">
@@ -231,17 +187,7 @@
                             <i class="fa fa-envelope-o icon-center" aria-hidden="true"></i>
                     </span>
                 </a>
-                <!--                <h1>Contact Me <a href="mailto:micca.osmar@gmail.com">micca.osmar@gmail.com</a></h1>-->
-                <!--                <div><button type="button" class="btn btn-outline-primary btn-outline btn-lg">Contact Me</button></div>-->
-
-
-
-                                <h6>© 2017. All Rights Reserved</h6>
-<!--
-                <div>
-                    <a class="btn btn-secondary btn-lg" href="mailto:micca.osmar@gmail.com">Contact Me</a>
-                </div>
--->
+                <h6>© 2017. All Rights Reserved</h6>
             </div>
 
 
@@ -249,7 +195,6 @@
         <!--                <div class="col-md-4 copyright">© 2017. All Rights Reserved</div>-->
         <div class="col-md-4 copyright"></div>
     </div>
-    <!--    </footer>-->
 </body>
 
 </html>
